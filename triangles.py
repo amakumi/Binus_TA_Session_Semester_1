@@ -1,30 +1,57 @@
+
 n = 0
+
+print()
 print("A")
+print()
 for i in range(0, 11):
     n = n + 1
-    for i in range(0, n - 1):
-        print("*", end = " ")
+    for j in range(0, n - 1):
+        print("*", end = "")
     print()
 print("")
 
 
-o = 0
 print("B")
-for i in range(n + 1, 1, -1):
-    for o in range(i, 1, -1):
-        print("*", end = " ")
+print()
+for i in range(0, 11):
+    n = n - 1
+    for j in range(0, n + 1):
+        print("*", end = "")
     print()
 print("")
 
-e = 0
+
 print ("C")
-for e in range (11, 0, -1):
-    print((11 - e) * " " + e * "*")
+print()
+for c in range (11, 0, -1):
+    print((11 - c) * " " + c * "*")
 print("")
 
-z = 0
+
 print("D")
-for z in range (11, 0, -1):
-    print(z * " " + (11 - z) * "*")
+print()
+for d in range (11, 0, -1):
+    print(d * " " + (11 - d) * "*")
 print("")
+
+
+print("E")
+
+print()
+
+i = 1
+j = 10
+while i <= 10:
+    print((j * " ") + i * "* ")
+    j = j - 1
+    i = i + 1
+
+print("")
+
+print()
+
+
+
+
 
